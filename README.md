@@ -2,7 +2,15 @@
 
 Live Demo [View Live Dashboard](https://apple-ads-dashboard-six.vercel.app/)
 
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/
+│ ├── cards/MetricCard.jsx
+│ ├── charts/TrendChart.jsx
+│ ├── charts/WorldMap.jsx
+│ ├── tables/DataTable.jsx
+│ └── layout/Header.jsx
+├── features/dashboard/
+│ ├── Dashboard.jsx
+│ └── dashboardSlice.js
+├── data/dashboardData.js
+└── store/index.js
